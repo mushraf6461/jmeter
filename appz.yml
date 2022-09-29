@@ -1,0 +1,35 @@
+app:
+    name: JMETER
+    code: jmeter
+    notify: akanade@ecloudcontrol.com
+
+build:
+    version: 0.1
+    env: DEV
+    build_file: none
+    output_files: output/*.zip
+    image_template: jmeter-5.3
+
+deploy:
+    context: alpha/DEV
+    type: statefulset
+    replicas: 1
+    port:
+    - 80
+volumes:
+  - claim: jmeter-data
+    mount: /appz/log/results
+    name: data
+    size: 10Gi
+
+properties:
+    JMETER_APP_HOST: apexaiq-1-22
+    JMETER_APP_PORT: 8080
+    TEST_NAME: APEXAIQ
+    TESTPLAN_FILENAME: APEXAIQ_PERFORMANCE_SCRIPT.jmx
+    JMETER_LOOP_COUNT: 1000
+    JMETER_THREAD_COUNT: 50
+    JMETER_RAMP_TIME: 100
+    JMETER_THREAD_DELAY: 0
+    JMETER_APP_PROTOCOL: http
+    revision: 1

@@ -37,4 +37,4 @@ properties:
     JMETER_THREAD_DURATION: 1000
     TEST_INTERVAL: 10
     JMETER_APP_PROTOCOL: http
-    revision: 5
+    revision: 6

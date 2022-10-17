@@ -39,5 +39,5 @@ properties:
     JMETER_THINK_TIME: 1000
     JMETER_THREAD_DURATION: 300
     #TEST_INTERVAL: 5
-    JMETER_APP_PROTOCOL: http
+    #JMETER_APP_PROTOCOL: http
     revision: 6

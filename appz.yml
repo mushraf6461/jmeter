@@ -29,7 +29,7 @@ properties:
     JMETER_httpsampler.ignore_failed_embedded_resources: true
     JMETER_jmeter.save.saveservice.output_format: xml
     JMETER_jmeter.save.saveservice.subresults: false  
-    TESTPLAN_FILENAME: APEXAIQ_PERFORMANCE_SCRIPT.jmx
+    TESTPLAN_FILENAME: APEXAIQ_PERFORMANCE_SCRIPT_dev.apexaiq.jmx
     #JMETER_LOOP_COUNT: 1000
     JMETER_USERS_COUNT: 5
     JMETER_RAMP_TIME: 1000

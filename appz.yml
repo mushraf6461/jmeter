@@ -40,4 +40,4 @@ properties:
     JMETER_THREAD_DURATION: 1800
     #TEST_INTERVAL: 5
     #JMETER_APP_PROTOCOL: http
-    revision: 8
+    revision: 9

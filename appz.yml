@@ -31,7 +31,7 @@ properties:
     JMETER_jmeter.save.saveservice.subresults: false  
     TESTPLAN_FILENAME: APEXAIQ_PERFORMANCE_SCRIPT_dev.apexaiq.jmx
     #JMETER_LOOP_COUNT: 1000
-    JMETER_USERS_COUNT: 5
+    JMETER_USERS_COUNT: 10
     JMETER_RAMP_TIME: 1000
     #JMETER_THREAD_DELAY: 0
     #JMETER_THREAD_COUNT: 10
